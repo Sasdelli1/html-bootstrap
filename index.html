@@ -6,8 +6,9 @@
     <title>Prototipo Responsivo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/template.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <style>
-        div{ border:1px solid blueviolet;}
     </style>
   </head>
   <body>
@@ -52,10 +53,14 @@
     
 
     <section>
-        <article class="container-fluid">
+        <article class="container-fluid overflow-hidden">
           <div class="row">
-            <div id="contentdk" class="col-md-6 col-sm-12">Conteudo-1</div>
-            <div class="col-md-6 col-sm-12">Conteudo-1</div>
+            <div id="contentdk" class="col-md-6 col-sm-12 overflow-hidden" style="padding-top: 270px"> 
+              <div class="inside mx-auto"></div>
+            </div>
+            <div id="content" class="col-md-6 col-sm-12 overflow-hidden" style="padding-top: 270px">
+              <div class="insidedk mx-auto"></div>
+            </div>
           </div>
         </article>
     </section>
@@ -63,8 +68,12 @@
     <section>
       <article class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-sm-12">Conteudo-2</div>
-          <div id="contentbl" class="col-md-6 col-sm-12">Conteudo-2</div>
+          <div id="content" class="col-md-6 col-sm-12 overflow-hidden" style="padding-top: 270px;">
+            <div class="insidedk mx-auto"></div>
+          </div>
+          <div id="contentbl" class="col-md-6 col-sm-12 overflow-hidden" style="padding-top: 270px;">
+            <div class="inside mx-auto"></div>
+          </div>
         </div>
       </article>
     </section>
@@ -72,7 +81,7 @@
     <section>
       <article class="container-fluid">
         <div class="row">
-          <div id="content" class="col-md-6 col-sm-12">Conteudo-3</div>
+          <div id="content" class="col-md-6 col-sm-12"></div>
           <div id="content" class="col-md-6 col-sm-12">Conteudo-3</div>
         </div>
       </article>
@@ -100,5 +109,6 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
   </body>
 </html>
