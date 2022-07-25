@@ -2,9 +2,9 @@
     background: rgb(248, 249, 250);
     margin-top: 60px;
     height: 400px;
-    border: 7px solid red;
-    border-left: 14px solid red;
-    border-right: 14px solid red;
+    border: 7px solid white;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
 
 
 }
@@ -12,19 +12,25 @@
 #contentdk{
     height: 520px;
     background: black;
-    border-left: 14px solid red;
+    border: 7px solid white;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
 }
 
 #contentbl{
     background: blue;
     height: 520px;
     border: 7px solid white;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
 }
 
 #content{
     height: 520px;
     background: rgb(248, 249, 250);
-    border: px solid white;
+    border: 7px solid white;
+    border-left: 14px solid white;
+    border-right: 14px solid white;
 }
 
 .inside{
